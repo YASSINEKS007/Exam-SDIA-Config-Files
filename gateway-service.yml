@@ -12,7 +12,6 @@ spring:
             allowedMethods: GET, POST, PUT, DELETE, OPTIONS
       default-filters:
         - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
-
 eureka:
   client:
     service-url:
